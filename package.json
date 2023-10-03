@@ -1,0 +1,35 @@
+{
+  "name": "TypeScriptGameEngine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/douglasscottjohnston/TypeScriptGameEngine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/douglasscottjohnston/TypeScriptGameEngine/issues"
+  },
+  "homepage": "https://github.com/douglasscottjohnston/TypeScriptGameEngine#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.1",
+    "jasmine": "^5.1.0",
+    "jasmine-core": "^5.1.1",
+    "karma": "^6.4.2",
+    "karma-chrome-launcher": "^3.2.0",
+    "karma-jasmine": "^5.1.0",
+    "karma-jasmine-html-reporter": "^2.1.0",
+    "karma-spec-reporter": "0.0.36",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@types/jasmine": "^4.3.6",
+    "express": "^4.17.1"
+  }
+}
