@@ -13,6 +13,7 @@ module.exports = function(config) {
             'test/*.js': [ 'browserify' ]
         },
         plugins: [
+            require ('karma-browserify'),
             require('karma-jasmine'),
             require('karma-chrome-launcher'),
             require('karma-spec-reporter'),
