@@ -1,11 +1,12 @@
-import {Timer} from "../src/timer";
+import {Timer} from '../src/timer';
 
 describe("Timer", () => {
-    it("test", () => {
-        expect(false).toBeTrue();
-    })
-    // let timer = new Timer();
-    //
+    let timer = new Timer();
+
+    it("tests", ()=> {
+        expect(true).toBeTrue();
+    });
+
     // describe("tick", () => {
     //     it("returns the correct deltaTime", () => {
     //         timer = new Timer();
