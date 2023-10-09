@@ -1,0 +1,36 @@
+{
+  "name": "typescriptgameengine",
+  "version": "0.0.1",
+  "description": "A web game engine made in TypeScript",
+  "main": "index.ts",
+  "type": "module",
+  "directories": {
+    "test": "spec"
+  },
+  "scripts": {
+    "develop": "webpack-dev-server --mode development",
+    "build": "cross-env TS_NODE_PROJECT=\"tsconfig-for-webpack.json\" webpack --mode production",
+    "test": "cross-env NODE_OPTIONS=--loader=ts-node/esm jasmine --config=jasmine.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/douglasscottjohnston/TypeScriptGameEngine.git"
+  },
+  "author": "Douglas Johnston",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@types/jasmine": "^5.1.0",
+    "cross-env": "^7.0.3",
+    "jasmine": "^5.1.0",
+    "jasmine-spec-reporter": "^7.0.0",
+    "jasmine-ts": "^0.4.0",
+    "ts-loader": "^9.5.0",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.2.0",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1",
+    "webpack-notifier": "^1.15.0"
+  }
+}
